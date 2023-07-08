@@ -1,0 +1,23 @@
+@media screen and(min-width:992px) {
+    .section{
+      width: 95vw;
+    }
+  }
+  
+  
+  main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    width: 90vw;
+    margin: 5rem 0;
+    max-width: var(--fixed-width);
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    padding: 1.5rem 2rem;
+    box-shadow: var(--dark-shadow);
+  }
